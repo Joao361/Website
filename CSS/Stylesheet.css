@@ -1,0 +1,48 @@
+body {
+  background: #000000;
+  color: ##ffffff
+}
+
+.header {
+margin-top:70px;
+}
+
+.logoJW {
+  margin-left: 70px;
+  float: left;
+  width: 60px;
+}
+
+.Navi {
+  margin-right: 70px;
+  text-align:right;              /* Textausrichtung     */
+  font-family: 'Nunito', sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.header {
+opacity: 0%
+}
+
+ul {
+    list-style-type: none;
+
+}
