@@ -5,6 +5,7 @@ body {
 
 .header {
 margin-top:70px;
+display: block;
 }
 
 .logoJW {
@@ -37,10 +38,29 @@ height: 100%;
   }
 
 .textfeld{
-  display: block;
+  align-items: center;
+  height: 500px;
+
+}
+
+.footer{
+  bottom: 0;
+  width: auto;
+  z-index: -2000;
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: gray;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 p{
-  font-family: 'Nunito', sans-serif; 
+  margin-top: 10%;
+  display: block;
+  vertical-align: middle;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   color: gray;
 }
