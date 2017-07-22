@@ -4,11 +4,14 @@ body {
 }
 
 .header {
-margin-top:70px;
+position: fixed;
+margin-top: 70px;
+width: 100%;
 display: block;
 }
 
 .logoJW {
+  position: relative;
   margin-left: 70px;
   float: left;
   width: 60px;
@@ -16,6 +19,9 @@ display: block;
 }
 
 .Navi {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
   margin-right: 70px;
   text-align:right;              /* Textausrichtung     */
   font-family: 'Nunito', sans-serif;
@@ -39,11 +45,12 @@ height: 100%;
 
 .textfeld{
   align-items: center;
-  height: 500px;
+  height: 450px;
 
 }
 
 .footer{
+  position:absolute;
   bottom: 0;
   width: auto;
   z-index: -2000;
@@ -53,8 +60,10 @@ h2{
   font-family: 'Nunito', sans-serif;
   text-align: center;
   color: gray;
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-top: 70px;
 }
 p{
   margin-top: 10%;
