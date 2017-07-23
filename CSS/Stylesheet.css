@@ -7,6 +7,7 @@ body {
 position: fixed;
 margin-top: 70px;
 width: 100%;
+min-width: 800px;
 display: block;
 }
 
@@ -37,22 +38,45 @@ display: block;
 }
 
 .wrapper{
+  align: center;
   position: absolute;
   top: 0;
   clear: both;
   width: auto;
+  min-width: 500px;
   z-index: -2000;
 }
 
 .background-video{
 width: 100%;
 height: 100%;
+min-width: 500px;
   }
 #work{
   display: block;
   clear: both;
   width: 100%;
   height: 1px;
+}
+.Projectswrapper{
+  text-align: center;
+  display: block;
+  height: 600px;
+  margin-top: 70px;
+  margin-left: 150px;
+  margin-right: 150px;
+  min-width: 500px;
+}
+.Projects{
+  display: inline-block;
+  height: 115px;
+  width: 350px;
+  min-width: 150px;
+  margin: 5px;
+  background-color: white;
+  max-width: 1920px;
+
+
 }
 #about{
   display: block;
@@ -67,15 +91,15 @@ height: 100%;
   height: 1px;
 }
 .textfeld{
-  align-items: center;
+  align: center;
   height: 600px;
 }
 .letztestextfeld{
-  align-items: center;
+  align: center;
   height: 450px;
 }
 .footer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   width: auto;
   z-index: -2000;
@@ -92,8 +116,8 @@ h2{
 }
 p{
   margin-top: 10%;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 28%;
+  margin-left: 28%;
   display: block;
   vertical-align: middle;
   font-family: 'Nunito', sans-serif;
@@ -123,4 +147,77 @@ opacity: 0%
 
 ul {
     list-style-type: none;
+}
+
+
+.formular{
+  display: block;
+  text-align: -moz-center;
+
+}
+#form {
+  text-align: center;
+  display: block;
+  width: 600px;
+  margin-top: 70px;
+}
+
+input {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875em;
+  width: 350px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: gray;
+
+  border: solid 1px gray;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea {
+  width: 350px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: gray;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px gray;
+
+}
+
+
+#submit {
+  width: 380px;
+
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875em;
+  color: gray;
+
+  outline:none;
+  cursor: pointer;
+
+  border: solid 1px gray;
+  border-top: none;
+}
+
+#submit:hover {
+  color: white;
 }
