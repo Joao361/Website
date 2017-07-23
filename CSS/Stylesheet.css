@@ -71,9 +71,9 @@ min-width: 500px;
   display: inline-block;
   height: 115px;
   width: 350px;
-  min-width: 150px;
+  min-width: 200px;
   margin: 5px;
-  background-color: white;
+  background-color: gray;
   max-width: 1920px;
 
 
