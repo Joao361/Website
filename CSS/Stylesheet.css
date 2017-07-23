@@ -155,7 +155,9 @@ ul {
 
 
 .formular{
-  display: block;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   text-align: -moz-center;
 
 }
