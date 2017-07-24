@@ -139,9 +139,13 @@ min-width: 500px;
 
 .erstestextfeld{
   align: center;
-  min-height: 100vh;
-  max-height: 200vh;
+  height: 1000px;
 }
+@media screen and (min-width: 1060px) {
+      .erstestextfeld{
+        height: 600px;
+    }
+  }
 .mittlerestextfeld{
   align: center;
   height: 100vh;
