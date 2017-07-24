@@ -13,7 +13,7 @@ display: block;
 
 .logoJW {
   position: relative;
-  margin-left: 70px;
+  margin-left: 5%;
   float: left;
   width: 60px;
   z-index: 2000;
@@ -29,7 +29,7 @@ display: block;
   margin-top: 0px;
   margin-bottom: 0px;
   float: right;
-  margin-right: 70px;
+  margin-right: 5%;
   text-align:right;              /* Textausrichtung     */
   font-family: 'Nunito', sans-serif;
   font-variant: small-caps;
@@ -49,7 +49,7 @@ display: block;
 
 .background-video{
 width: 100%;
-height: 100vh;
+height: 100%;
 min-width: 500px;
   }
 
