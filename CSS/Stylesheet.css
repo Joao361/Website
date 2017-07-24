@@ -49,7 +49,7 @@ display: block;
 
 .background-video{
 width: 100%;
-height: 100%;
+height: 100vh;
 min-width: 500px;
   }
 
@@ -62,7 +62,7 @@ min-width: 500px;
 .Projectswrapper{
   text-align: center;
   display: block;
-  height: 600px;
+  height: 100vh;
   margin-top: 70px;
   margin-left: 150px;
   margin-right: 150px;
