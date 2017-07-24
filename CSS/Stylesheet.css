@@ -272,3 +272,14 @@ textarea {
   margin-right: 75px;
   margin-bottom: 20px;
 }
+.fotos{
+  display: block;
+  justify-content: center;
+}
+.fotos img{
+  display:inline-block;
+  margin-bottom: 10px;
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
