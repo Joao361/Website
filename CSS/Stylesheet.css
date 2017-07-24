@@ -148,12 +148,23 @@ min-width: 500px;
   }
 .mittlerestextfeld{
   align: center;
-  height: 100vh;
+  height: 600px;
 }
+@media screen and (max-width: 1060px) {
+      .mittlerestextfeld{
+        height: 1000px;
+    }
+  }
 .letztestextfeld{
   align: center;
-  height: 100vh;
+  height: 600px;
 }
+@media screen and (max-width: 1060px) {
+      .letztestextfeld{
+        height: 1000px;
+    }
+  }
+
 .textfeld{
   align: center;
   height: 100vh;
