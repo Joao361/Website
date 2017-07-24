@@ -139,7 +139,7 @@ min-width: 500px;
 
 .erstestextfeld{
   align: center;
-  height: 1080px;
+  height: 1100px;
 }
 @media screen and (min-width: 1060px) {
       .erstestextfeld{
@@ -152,7 +152,7 @@ min-width: 500px;
 }
 @media screen and (max-width: 1060px) {
       .mittlerestextfeld{
-        height: 1080px;
+        height: 1100px;
     }
   }
 .letztestextfeld{
@@ -161,7 +161,7 @@ min-width: 500px;
 }
 @media screen and (max-width: 1060px) {
       .letztestextfeld{
-        height: 1080px;
+        height: 1100px;
     }
   }
 
